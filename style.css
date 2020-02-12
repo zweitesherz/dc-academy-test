@@ -1,0 +1,129 @@
+html {
+    margin: 0;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.form {
+    position: absolute;
+    left: 26.56%;
+    right: 26.46%;
+    top: 4.04%;
+    bottom: 44.92%;
+    background: #F7F5F9;
+    border-radius: 12px;
+    width: 481px;
+    height: 392px;
+
+}
+
+.h {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 273px;
+    width: 168px;
+    height: 20px;
+
+    font-family: Roboto, sans-serif;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+    display: flex;
+    align-items: center;
+
+    color: #3B3D43;
+}
+
+
+
+.inputs{
+
+}
+
+#name{
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 85px;
+
+
+
+
+    background: #FFFFFF;
+
+
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+
+}
+
+
+
+#phone {
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 158px;
+    background: #FFFFFF;
+    border: 1px solid #854FC8;
+
+
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+
+}
+
+
+#email {
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 231px;
+
+    background: #FFFFFF;
+    /* Dropshadow 1 */
+
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+
+#button {
+    position: absolute;
+    width: 401px;
+    height: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 304px;
+    background: #6979F8;
+    border-radius: 6px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+
+
+    /*display: flex;*/
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
