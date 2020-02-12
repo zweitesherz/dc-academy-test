@@ -24,6 +24,7 @@ body {
     border-radius: 12px;
     width: 481px;
     height: 392px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
 
 
 }
@@ -134,5 +135,24 @@ body {
 
 }
 
+#name:hover {
+    border: 2px solid #6979F8; /* Чёрная рамка */
+}
 
+#phone:hover {
+    border: 2px solid #6979F8;
+    border-radius: 6px;
+}
 
+#email:hover {
+    border: 2px solid #6979F8;
+}
+
+#button:hover {
+    width: 403px;
+    height: 50px;
+}
+
+.form:hover {
+    border: 2px solid cornflowerblue;
+}
