@@ -58,12 +58,14 @@ body {
 
 #name{
     position: absolute;
-    width: 401px;
+    width: 383px;
     height: 48px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 85px;
     border: none;
+
+    padding-left: 15px;
 
 
 
@@ -80,13 +82,15 @@ body {
 
 #phone {
     position: absolute;
-    width: 401px;
+    width: 383px;
     height: 48px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 158px;
     background: #FFFFFF;
     border: none;
+
+    padding-left: 15px;
 
 
 
@@ -98,11 +102,13 @@ body {
 
 #email {
     position: absolute;
-    width: 401px;
+    width: 383px;
     height: 48px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 231px;
+
+    padding-left: 15px;
 
     background: #FFFFFF;
     /* Dropshadow 1 */
@@ -142,6 +148,9 @@ body {
     border: 2px solid #6979F8;
     border-radius: 6px;
     -webkit-border-radius: 6px;
+    margin-top: 83px;
+    margin-left: 38px;
+
 
 }
 
@@ -149,14 +158,19 @@ body {
     border: 1px solid #854FC8;
     border-radius:6px;
     outline:none;
+    margin-top: 83px;
+    margin-left: 38px;
 
 }
 
 #phone:hover {
     border: 2px solid #6979F8;
     border-radius: 6px;
-    margin-top: 157px;
-    margin-left: 39px;
+    margin-left: 38px;
+
+    margin-top: 156px;
+
+
 }
 
 #phone:focus{
@@ -167,6 +181,8 @@ body {
 
 #email:hover {
     border: 2px solid #6979F8;
+    margin-left: 38px;
+    margin-top: 229px;
 }
 
 #email:focus {
@@ -180,10 +196,7 @@ body {
     height: 50px;
 }
 
-.form:hover {
-    border: 2px solid cornflowerblue;
-    margin-top: 29px;
-}
+
 
 input::placeholder {
     font-family: Roboto, sans-serif;
