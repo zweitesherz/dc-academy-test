@@ -86,7 +86,7 @@ body {
     margin-right: 40px;
     margin-top: 158px;
     background: #FFFFFF;
-    border: 1px solid #854FC8;
+    border: none;
 
 
 
@@ -136,19 +136,20 @@ body {
     align-items: center;
     text-align: center;
 
-
-
-
-
-
-
-
-
-
 }
 
 #name:hover {
-    border: 2px solid #6979F8; /* Чёрная рамка */
+    border: 2px solid #6979F8;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+
+}
+
+#name:focus {
+    border: 1px solid #854FC8;
+    border-radius:6px;
+    outline:none;
+
 }
 
 #phone:hover {
@@ -158,8 +159,20 @@ body {
     margin-left: 39px;
 }
 
+#phone:focus{
+    border: 1px solid #854FC8;
+    border-radius: 6px;
+    outline:none;
+}
+
 #email:hover {
     border: 2px solid #6979F8;
+}
+
+#email:focus {
+    border: 1px solid #854FC8;
+    border-radius: 6px;
+    outline:none;
 }
 
 #button:hover {
