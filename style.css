@@ -144,6 +144,8 @@ body {
     border: 1px solid #854FC8;
     border-radius: 6px;
     outline: none;
+    margin-left: 40px;
+    margin-top: 158px;
 }
 
 #email:hover {
@@ -156,6 +158,8 @@ body {
     border: 1px solid #854FC8;
     border-radius: 6px;
     outline: none;
+    margin-left: 40px;
+    margin-top: 231px;
 }
 
 #button:hover {
