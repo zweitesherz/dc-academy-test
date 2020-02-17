@@ -6,18 +6,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="all">
-    <form action="https://digital-spectr.com/ac/academy.php" method="POST">
+
+    <form class="all" action="https://digital-spectr.com/ac/academy.php" method="POST">
         <div class="form">
 
 
-            <div class="h">Задать вопрос</div>
-            <div class="inputs">
+            <div class="form__Title"> Задать вопрос </div>
+
 
                 <label>
                     <input type="text" name="name" id="name" placeholder="Фамилия Имя Отчество *"
                            pattern="^[А-Яа-яЁё\s' -]+$">
                 </label>
+
                 <label>
                     <input type="text" name="phone" id="phone" placeholder="Телефон *"
                            pattern="^[0-9\s\- ' +]+$">
@@ -32,8 +33,8 @@
                 </label>
 
             </div>
-        </div>
+
     </form>
-</div>
+
 </body>
 </html>

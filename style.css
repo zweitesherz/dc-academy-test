@@ -15,7 +15,6 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-
 }
 
 .form {
@@ -27,7 +26,7 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
 }
 
-.h {
+.form__Title {
     position: absolute;
     margin-top: 40px;
     margin-left: 40px;
